@@ -3,8 +3,8 @@
 	font-style: normal;
 	font-weight: normal;
 	font-display: auto;
-	src: url('https://ejemplos.entodaocasion.com/wp-content/uploads/2025/03/Elegant.woff') format('woff'),
-		url('https://ejemplos.entodaocasion.com/wp-content/uploads/2025/03/Elegant.ttf') format('truetype');
+	src: url('../../../../assets/fonts/Elegant.woff') format('woff'),
+		url('../../../../assets/fonts/Elegant.ttf') format('truetype');
 }
 /* End Custom Fonts CSS */
 /* Start Custom Fonts CSS */@font-face {
@@ -12,15 +12,15 @@
 	font-style: normal;
 	font-weight: normal;
 	font-display: auto;
-	src: url('https://ejemplos.entodaocasion.com/wp-content/uploads/2025/03/Centralwell-Regular.woff') format('woff'),
-		url('https://ejemplos.entodaocasion.com/wp-content/uploads/2025/03/Centralwell-Regular.ttf') format('truetype');
+	src: url('../../../../assets/fonts/Centralwell-Regular.woff') format('woff'),
+		url('../../../../assets/fonts/Centralwell-Regular.ttf') format('truetype');
 }
 @font-face {
 	font-family: 'Centralwell';
 	font-style: italic;
 	font-weight: normal;
 	font-display: auto;
-	src: url('https://ejemplos.entodaocasion.com/wp-content/uploads/2025/03/Centralwell-Italic.woff') format('woff'),
-		url('https://ejemplos.entodaocasion.com/wp-content/uploads/2025/03/Centralwell-Italic.ttf') format('truetype');
+	src: url('../../../../assets/fonts/Centralwell-Italic.woff') format('woff'),
+		url('../../../../assets/fonts/Centralwell-Italic.ttf') format('truetype');
 }
 /* End Custom Fonts CSS */
