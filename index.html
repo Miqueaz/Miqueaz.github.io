@@ -584,6 +584,7 @@
 	<meta name="msapplication-TileImage"
 		content="https://ejemplos.entodaocasion.com/wp-content/uploads/2025/02/en-toda-ocasion-min-300x300.png" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+	<script src="./logic.js"></script>
 </head>
 
 <body class="ejemplos-template ejemplos-template-elementor_canvas single single-ejemplos postid-3664 wp-embed-responsive theme-default elementor-default elementor-template-canvas elementor-kit-8 elementor-page elementor-page-3664">
@@ -635,7 +636,7 @@
 						<div class="elementor-element elementor-element-2184b19c elementor-widget elementor-widget-heading"
 							data-id="2184b19c" data-element_type="widget" data-widget_type="heading.default">
 							<div class="elementor-widget-container">
-								<h2 class="elementor-heading-title elementor-size-default">Invitado</h2>
+								<h2 id="tituloInvitado" class="elementor-heading-title elementor-size-default">Invitado</h2>
 							</div>
 						</div>
 						<div class="elementor-element elementor-element-5ac31730 elementor-widget elementor-widget-spacer"
@@ -649,7 +650,7 @@
 						<div class="elementor-element elementor-element-7d73c3c6 elementor-widget elementor-widget-heading"
 							data-id="7d73c3c6" data-element_type="widget" data-widget_type="heading.default">
 							<div class="elementor-widget-container">
-								<h2 class="elementor-heading-title elementor-size-default">---</h2>
+								<h2 id="numeroPases" class="elementor-heading-title elementor-size-default">---</h2>
 							</div>
 						</div>
 						<div class="elementor-element elementor-element-447b11a2 elementor-widget elementor-widget-spacer"
@@ -780,7 +781,7 @@
 												<div class="elementor-jet-audio jet-elements">
 													<div class="jet-audio jet-audio--fa5-compat"
 														data-audio-settings="{&quot;controls&quot;:[&quot;playpause&quot;],&quot;startVolume&quot;:0.8000000000000000444089209850062616169452667236328125,&quot;hideVolumeOnTouchDevices&quot;:true}">
-														<audio class="jet-audio-player" preload="none" controls=""
+														<audio autoplay class="jet-audio-player" preload="auto" controls=""
 															src="https://www.youtube.com/watch?v=w9_-SCFNeag"
 															width="100%"></audio>
 													</div>
@@ -3289,8 +3290,7 @@
 											data-widget_type="button.default">
 											<div class="elementor-widget-container">
 												<div class="elementor-button-wrapper">
-													<a class="elementor-button elementor-button-link elementor-size-sm"
-														href="#" target="_blank" rel="nofollow">
+													<a id="aceptarInvitacionBtn" class="elementor-button elementor-button-link elementor-size-sm" target="_blank" rel="nofollow">
 														<span class="elementor-button-content-wrapper">
 															<span class="elementor-button-icon">
 																<svg aria-hidden="true"
