@@ -1,6 +1,6 @@
 window.addEventListener('DOMContentLoaded', () => {
-    const partesRuta = window.location.pathname.split("/");
-const id = partesRuta[partesRuta.length - 1];
+    const params = new URLSearchParams(window.location.search);
+const id = params.get("id");
     const titulo = document.getElementById("tituloInvitado");
     if (titulo) {
       titulo.textContent = `Invitación #${id}`;
